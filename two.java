@@ -1,8 +1,7 @@
 package oop;
 import java.util.*;
-
-public class two {
-    public static void main(String[] args) {
+class checkNumber{
+    void check(){
         Scanner Sc = new Scanner(System.in);
         int N = Sc.nextInt();
         if(N%2!=0){
@@ -19,4 +18,12 @@ public class two {
     }
     Sc.close();
     }
+    }
+
+
+public class two {
+    public static void main(String[] args) {
+       checkNumber obj=new checkNumber();
+          obj.check();
+}
 }
